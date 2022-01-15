@@ -4,3 +4,15 @@ plugins {
 
 group 'mx.com.percont.automation'
 version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Selenium & WebDriver manager
+    implementation 'org.seleniumhq.selenium:selenium-java:4.1.1'
+}
+
+sourceCompatibility = '1.8'
+targetCompatibility = '1.8'
