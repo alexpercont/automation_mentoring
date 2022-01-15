@@ -12,6 +12,13 @@ repositories {
 dependencies {
     // Selenium & WebDriver manager
     implementation 'org.seleniumhq.selenium:selenium-java:4.1.1'
+
+    // jUnit
+    testImplementation 'junit:junit:4.13.2'
+}
+
+test {
+    useJUnit()
 }
 
 sourceCompatibility = '1.8'
