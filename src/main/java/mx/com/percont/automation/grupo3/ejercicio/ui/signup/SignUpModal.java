@@ -32,6 +32,6 @@ public class SignUpModal extends AbstractModal {
     }
 
     public boolean isDisplayed() {
-        return true;
+        return usernameInput.isDisplayed();
     }
 }
